@@ -4,7 +4,7 @@
   "description": "ASA Studio - Lamp and Decoration Production Studio, HCMC, Vietnam",
   "scripts": {
     "build": "node scripts/build.js",
-    "start": "node server.js",
+    "start": "node scripts/server.js",
     "dev": "node scripts/dev.js"
   },
   "keywords": [

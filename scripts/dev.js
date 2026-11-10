@@ -30,8 +30,8 @@ function triggerRebuild(event, filename) {
 // 1. Initial build
 build();
 
-// 2. Start server.js process
-const serverProcess = spawn('node', ['server.js'], {
+// 2. Start server process
+const serverProcess = spawn('node', ['scripts/server.js'], {
   cwd: ROOT_DIR,
   stdio: 'inherit'
 });
